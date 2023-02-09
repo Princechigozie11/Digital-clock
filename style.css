@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: violet;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* =========================== CLOCK CONTAINER =========================== */
+
+.clock-container {
+  background: rgba(255, 255, 255, 0.3);
+  color: darkblue;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 3rem;
+  margin: auto 1rem;
+  border-radius: 10px;
+}
+
+.clock {
+  border: 2px solid cadetblue;
+  padding: 0.5rem 2rem;
+  margin-top: 1.5rem;
+  color: darkblue;
+  font-size: 1.5rem;
+}
+/* ============================== BUTTON CONTAINER ========================== */
+
+.btn-container {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin: auto 1rem;
+  border-radius: 35px;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 0.9rem;
+}
+
+.btn1 {
+  background: darkorange;
+  color: white;
+}
+.btn2 {
+  background: darkmagenta;
+  color: white;
+}
+.btn3 {
+  background: darkred;
+  color: white;
+}
